@@ -7,11 +7,13 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-     <div className='md:flex justify-between'>
-         <Blogs></Blogs>
-         <Bookmarks></Bookmarks>
-     </div>
+       <div className='w-8/12 mx-auto'>
+       <Header></Header>
+        <div className='md:flex justify-between'>
+            <Blogs></Blogs>
+            <Bookmarks></Bookmarks>
+        </div>
+       </div>
     </>
   )
 }
