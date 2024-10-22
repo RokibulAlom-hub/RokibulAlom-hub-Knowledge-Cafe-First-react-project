@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "title": "Exploring the Future of AI",
+      "cover_img": "https://i.ibb.co.com/0YkDDGT/aron-visuals-BXOXn-Q26-B7o-unsplash.jpg",
+      "author_name": "John Doe",
+      "author_img": "https://example.com/images/john_doe.jpg",
+      "posted_date": "2024-10-01",
+      "reading_time": "5",
+      "hashtags": ["#AI", "#Technology", "#Future"]
+    },
+    {
+      "id": 2,
+      "title": "Sustainable Living in Urban Areas",
+      "cover_img": "https://i.ibb.co.com/SVHxtBH/andrew-ridley-j-R4-Zf-ri-Ej-I-unsplash.jpg",
+      "author_name": "Jane Smith",
+      "author_img": "https://example.com/images/jane_smith.jpg",
+      "posted_date": "2024-09-25",
+      "reading_time": "8",
+      "hashtags": ["#Sustainability", "#UrbanLife", "#EcoFriendly"]
+    },
+    {
+      "id": 3,
+      "title": "Mastering React for Frontend Development",
+      "cover_img": "https://i.ibb.co.com/z6stt2k/daria-nepriakhina-x-Y55b-L5m-ZAM-unsplash.jpg",
+      "author_name": "Emily Carter",
+      "author_img": "https://example.com/images/emily_carter.jpg",
+      "posted_date": "2024-10-15",
+      "reading_time": "12",
+      "hashtags": ["#React", "#Frontend", "#WebDevelopment"]
+    },
+    {
+      "id": 4,
+      "title": "The Evolution of Mobile Design",
+      "cover_img": "https://i.ibb.co.com/xLg9QsS/ian-schneider-Tam-Mbr4okv4-unsplash.jpg",
+      "author_name": "Michael Brown",
+      "author_img": "https://example.com/images/michael_brown.jpg",
+      "posted_date": "2024-09-10",
+      "reading_time": "7",
+      "hashtags": ["#MobileDesign", "#UIUX", "#AppDevelopment"]
+    },
+    {
+      "id": 5,
+      "title": "Understanding Blockchain Technology",
+      "cover_img": "https://i.ibb.co.com/VpfL2cN/clark-tibbs-oq-Stl2-L5ox-I-unsplash.jpg",
+      "author_name": "Sophia Lee",
+      "author_img": "https://example.com/images/sophia_lee.jpg",
+      "posted_date": "2024-10-20",
+      "reading_time": "10",
+      "hashtags": ["#Blockchain", "#Cryptocurrency", "#TechTrends"]
+    }
+  ]
+  
