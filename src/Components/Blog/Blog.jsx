@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'; // ES6
 import { GoBookmark } from "react-icons/go";
-const Blog = ({blog}) => {
+const Blog = ({blog,addBookmarks}) => {
   const {cover_img,title,author_img,author_name,
     reading_time,hashtags,posted_date
   } = blog;
@@ -20,7 +20,7 @@ const Blog = ({blog}) => {
                     </div>
                     <div className='flex justify-center items-center gap-3'>
                         <p>{reading_time}min read</p>
-                        <button><GoBookmark /></button>
+                        <button onClick={() =>addBookmarks(blog)}><GoBookmark /></button>
                     </div>
                     
                 </div>
@@ -35,6 +35,7 @@ const Blog = ({blog}) => {
     );
 };
 Blog.propTypes ={
-    blog: PropTypes.object.isrequired
+    blog: PropTypes.object.isrequired,
+    addBookmarks:PropTypes.func
 }
 export default Blog;
