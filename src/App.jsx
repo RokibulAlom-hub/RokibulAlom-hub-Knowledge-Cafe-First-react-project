@@ -1,12 +1,17 @@
 import './App.css'
 import Blogs from './Components/Blogs/Blogs'
+import Bookmarks from './Components/Bookmarks/Bookmarks'
+import Header from './Components/Header/Header'
 
 function App() {
 
   return (
     <>
-      <h1 className='bg-red-400 text-2xl'>Vite + React</h1>
-      <Blogs></Blogs>
+      <Header></Header>
+     <div className='md:flex justify-between'>
+         <Blogs></Blogs>
+         <Bookmarks></Bookmarks>
+     </div>
     </>
   )
 }
